@@ -1,0 +1,10 @@
+CREATE TABLE `user` (
+  `id` bigint(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(128) DEFAULT NULL COMMENT '用户名',
+  `pass_word` varchar(128) DEFAULT NULL COMMENT '密码',
+  `email` varchar(64) DEFAULT NULL COMMENT '邮箱',
+  `nick_name` varchar(128) DEFAULT NULL COMMENT '昵称',
+  `reg_time` varchar(32) DEFAULT NULL COMMENT '注册时间',
+  `age` int(11) DEFAULT NULL COMMENT '年龄',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
